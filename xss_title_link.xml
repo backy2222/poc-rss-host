@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title><![CDATA[<script>alert('title')</script>]]></title>
+    <link>javascript:alert('link-XSS')</link>
+    <description>Title/link sink XSS</description>
+    <item>
+      <title><![CDATA[<img src=x onerror=alert('item-title-xss')>]]></title>
+      <link>javascript:alert('item-link-XSS')</link>
+      <description>Test title XSS</description>
+      <guid>xss-title-1</guid>
+    </item>
+  </channel>
+</rss>

