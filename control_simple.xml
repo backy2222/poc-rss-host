@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Control RSS Feed</title>
+    <link>http://example.com</link>
+    <description>Simple valid RSS feed for control test</description>
+    <item>
+      <title>Item 1</title>
+      <link>http://example.com/1</link>
+      <description>Hello world</description>
+      <pubDate>Wed, 29 May 2026 18:00:00 GMT</pubDate>
+      <guid isPermaLink="false">item-1</guid>
+    </item>
+  </channel>
+</rss>

